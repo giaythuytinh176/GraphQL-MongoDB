@@ -5,7 +5,7 @@ import { v4 as uuid } from "uuid";
 import { Lesson } from "./lesson.entity";
 import { CreateLessonInput } from "./lesson.input";
 
-@Injectable()
+@Injectable() 
 export class LessonService {
   constructor(
     @InjectRepository(Lesson)
